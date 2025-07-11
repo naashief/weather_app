@@ -1,16 +1,20 @@
 # weather_app
+# Aplikasi Cuaca Sederhana Flutter
 
-A new Flutter project.
+Aplikasi Flutter untuk menampilkan informasi cuaca saat ini menggunakan OpenWeatherMap API.
 
-## Getting Started
+## Cara Menjalankan Proyek
 
-This project is a starting point for a Flutter application.
+1.  **Prasyarat:**
+    *   Pastikan Anda telah menginstal [Flutter SDK](https://flutter.dev/docs/get-started/install).
+    *   Anda memerlukan **API Key** dari [OpenWeatherMap](https://openweathermap.org/appid).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2.  **Konfigurasi API Key:**
+    *   Buka file kode sumber berikut:
+        *   `lib/pages/search_field.dart`
+        *   `lib/pages/result.dart`
+    *   Di dalam file-file tersebut, cari URL yang digunakan untuk request API (biasanya mengandung `api.openweathermap.org`).
+    *   Ganti placeholder `APPID=YOUR_API_KEY` (atau yang serupa) dengan API Key OpenWeatherMap Anda yang valid.
+3.  **Install Dependencies:**
+    Buka terminal di direktori root proyek dan jalankan (flutter run)
+    
